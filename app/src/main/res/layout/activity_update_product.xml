@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.devcrewchallange.activities.UpdateProductActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/update_image_ImageView"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"
+                android:layout_margin="@dimen/five"
+
+                android:background="@drawable/slect" />
+
+            <Button
+                android:id="@+id/update_select_image_Button"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_image" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/update_name_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five"
+            android:hint="@string/product_name" />
+
+
+        <EditText
+            android:id="@+id/update_description_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five"
+            android:hint="@string/product_description" />
+
+        <EditText
+            android:id="@+id/update_regular_price_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five"
+            android:hint="@string/reguler_price"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/update_sale_price_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five"
+            android:hint="@string/sale_price"
+            android:inputType="numberDecimal" />
+
+
+        <LinearLayout
+            android:id="@+id/update_checkbox_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/update_red_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five"
+                android:text="@string/red" />
+
+            <CheckBox
+                android:id="@+id/update_blue_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five"
+                android:text="@string/blue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/update_checkbox_container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/update_wall_mart_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five"
+                android:text="@string/wall_mart" />
+
+            <CheckBox
+                android:id="@+id/update_metro_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five"
+                android:text="@string/metro" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/update_update_product_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten"
+            android:background="@color/colorPrimary"
+            android:text="@string/update_product"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextView">
+        <attr name="ctypeface" format="string"/>
+        <attr name="cbold" format="boolean"/>
+        <attr name="isBold" format="boolean"></attr>
+        <attr name="isLight" format="boolean"></attr>
+        <attr name="isMedium" format="boolean"></attr>
+        <attr name="isTizza" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>
